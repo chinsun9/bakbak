@@ -1,5 +1,5 @@
 {
-  "name": "ts-repo-template",
+  "name": "bakbak",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chinsun9/ts-repo-template.git"
+    "url": "git+https://github.com/chinsun9/bakbak.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chinsun9/ts-repo-template/issues"
+    "url": "https://github.com/chinsun9/bakbak/issues"
   },
-  "homepage": "https://github.com/chinsun9/ts-repo-template#readme",
+  "homepage": "https://github.com/chinsun9/bakbak#readme",
   "devDependencies": {
     "@types/node": "^16.7.13",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
