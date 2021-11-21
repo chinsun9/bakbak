@@ -5,7 +5,7 @@
 ## Install
 
 ```sh terminal
-yarn add @chinsun9/bakbak
+yarn add @chinsun9/bakbak --registry https://npm.pkg.github.com/
 ```
 
 ## Usage
