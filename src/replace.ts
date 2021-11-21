@@ -16,10 +16,6 @@ const targetString2: MapItem = ['대박', '진짜', '존나'].map((str) => [
 const map = new Map<string, string>([...targetString3, ...targetString2]);
 const regexp = new RegExp([...map.keys()].join('|'), 'g');
 
-const replace = (str: string) =>
-  str.replace(regexp, (sub, ...args) => {
-    console.log({ sub, args });
-    return map.get(sub)!;
-  });
+const replace = (str: string) => str.replace(regexp, (sub) => map.get(sub)!);
 
 export { replace };
